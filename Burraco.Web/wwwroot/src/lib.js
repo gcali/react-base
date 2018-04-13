@@ -1,3 +1,3 @@
-function getText() {
-    return "Data from getText";
+export function getText() {
+    return "Data from getText version2";
 }
