@@ -1,6 +1,6 @@
-import { getText } from './lib';
-import $ from 'jquery';
+import React from "react";
+import ReactDOM from "react-dom";
+import HelloWorld from './Components/Container/HelloWorld';
 
-document.getElementById("fillthis").innerHTML = getText();
-
-$("#fillthis").html("Filled with jquery");
+const wrapper = document.getElementById("wrapper");
+ReactDOM.render(<HelloWorld />, wrapper);
