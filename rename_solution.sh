@@ -25,4 +25,4 @@ while [[ $found = true ]]; do
     done
 done
 
-find * .vscode -type f ! -name "$script_name" ! -name "*.bak" -exec sed -i.bak "s/$old_name/$new_name/g" '{}' ';'
+find * .vscode -type f ! -name "$script_name" ! -name "*.bak" -exec sed -i "s/$old_name/$new_name/g" '{}' ';'
