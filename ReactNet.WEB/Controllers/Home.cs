@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Burraco.Web.Controllers
+namespace ReactNet.WEB.Controllers
 {
     public class Home : Controller
     {

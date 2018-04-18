@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "debug-build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Burraco.Web/bin/Debug/netcoreapp2.0/Burraco.Web.dll",
+            "program": "${workspaceFolder}/ReactNet.WEB/bin/Debug/netcoreapp2.0/ReactNet.WEB.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Burraco.Web",
+            "cwd": "${workspaceFolder}/ReactNet.WEB",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {
@@ -42,9 +42,9 @@
             "request": "launch",
             "preLaunchTask": "release-build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Burraco.Web/bin/Debug/netcoreapp2.0/Burraco.Web.dll",
+            "program": "${workspaceFolder}/ReactNet.WEB/bin/Debug/netcoreapp2.0/ReactNet.WEB.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Burraco.Web",
+            "cwd": "${workspaceFolder}/ReactNet.WEB",
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {
                 "enabled": false

@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Burraco.Web/Burraco.Web.csproj"
+                "${workspaceFolder}/ReactNet.WEB/ReactNet.WEB.csproj"
             ],
             "problemMatcher": "$msCompile",
             "dependsOn": [
@@ -29,7 +29,7 @@
                 "development"
             ],
             "options": {
-                "cwd": "${workspaceFolder}/Burraco.Web"
+                "cwd": "${workspaceFolder}/ReactNet.WEB"
             },
             "problemMatcher": "$node-sass"
         },
@@ -39,7 +39,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Burraco.Web/Burraco.Web.csproj",
+                "${workspaceFolder}/ReactNet.WEB/ReactNet.WEB.csproj",
                 "-c",
                 "Release"
             ],
@@ -59,7 +59,7 @@
                 "production"
             ],
             "options": {
-                "cwd": "${workspaceFolder}/Burraco.Web"
+                "cwd": "${workspaceFolder}/ReactNet.WEB"
             },
             "problemMatcher": "$node-sass"
         }
